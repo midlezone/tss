@@ -1,0 +1,29 @@
+<?php if (isset($data) && count($data)) { ?>
+    <ul>
+        <?php
+        $first_child = true;
+        foreach ($data as $menu_id => $menu) {
+            $m_link = $menu['menu_link'];
+            if ($first_child && $first) {
+                ?>
+                <li class="<?php echo ($menu['items']) ? 'has-sub' : ''; ?> <?php echo ($menu['active']) ? 'active' : '' ?>">
+                    <a href="<?php echo $m_link; ?>" <?php echo $menu['target']; ?> title="<?php echo $menu['description']; ?>"><i class = "icon-home"></i></a>
+                </li>
+                <?php
+                $first_child = false;
+                continue;
+            }
+            ?>
+            <li class="<?php echo ($menu['items']) ? 'has-sub' : ''; ?> <?php echo ($menu['active']) ? 'active' : '' ?>">
+                <a href="<?php echo $m_link; ?>" <?php echo $menu['target']; ?> title="<?php echo $menu['description']; ?>"><?php echo $menu['menu_title']; ?></a>
+                <?php
+                $this->render($this->view, array(
+                    'data' => $menu['items'],
+                    'first' => false,
+                ));
+                ?>
+            </li>
+        <?php } ?>
+    </ul>
+    <?php
+}    

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+<url>
+    <loc>http://sontrung.com</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://sontrung.com/hoat-dong-dang-bo-nc,4591</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://sontrung.com/hoat-dong-ubnd-xa-son-trung-nc,4590</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://sontrung.com/hoat-dong-doan-the-nc,4592</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://sontrung.com/huong-dan-thu-tuc-hanh-chinh-nc,4593</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://sontrung.com/album</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://sontrung.com/video</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://sontrung.com/lien-he</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+</urlset>

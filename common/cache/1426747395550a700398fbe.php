@@ -1,0 +1,1 @@
+<?php return array('value'=> '{"username":"dangtoan@gautrucdo.com.vn","password":"704409ad4739dbb404c22571303fe712","rememberMe":1}', 'mode'=>true);

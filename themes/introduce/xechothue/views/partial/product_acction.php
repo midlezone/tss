@@ -1,0 +1,1 @@
+<div class="ProductActionAdd"> <a href="<?php echo Yii::app()->createUrl('/economy/shoppingcart/add', array('pid' => $pid)); ?>" class="a-btn-2 addtocart"><span class="a-btn-2-text">ĐẶT XE</span></a> </div>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+<url>
+    <loc>http://cedvietnam.com</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/news/news/category</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/news/news/detail</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/tin-khuyen-mai-pde,3727</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/tin-tuc-su-kien-nc,5026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/dich-vu-ket-noi-doanh-nghiep-pde,3753</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/tu-van-phat-trien-doanh-nghiep-pde,3754</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/cach-dat-lich-truoc-khi-den-spa-pde,3726</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/gioi-thieu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/dich-vu-tu-van-cac-thu-tuc-hanh-chinh-cong-pde,3755</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/ket-noi-offline-pde,3756</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/du-an-nc,5047</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/tin-tuc-nc,5034</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/tuyen-dung</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://cedvietnam.com/lien-he</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+</urlset>

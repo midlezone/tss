@@ -1,0 +1,24 @@
+UPDATE sites SET site_logo='',footercontent='',contact='' WHERE site_id=[site_id];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

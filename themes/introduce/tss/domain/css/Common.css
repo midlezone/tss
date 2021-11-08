@@ -1,0 +1,136 @@
+/*
+ * DOHOAVN.INFO
+ * http://dohoavn.info/
+ *
+ * Copyright (c) 2009 DOHOAVN.INFO
+ * Powered by HT™ ( YM: phan_huutam )
+ */
+/*body{
+	margin: 0px;
+	font-family: Tahoma,sans-serif;
+	font-size: 11px;
+}*/
+
+
+/*INPUT, SELECT{
+	font-size: 11px;
+	color: Black;
+	text-decoration: none;
+	
+}*/
+
+/*A{
+	font-size: 11px;
+	color: Black;
+	text-decoration: none;
+}*/
+A:hover{
+text-decoration:underline;
+}
+/*-------------------------MENU------------------------------------*/
+#menu{
+font-size:12px;
+text-align:left;
+color:#EC4D00;
+}
+#menu a{
+color:#EC4D00;
+font-weight:bold;
+margin-left:10px;
+}
+/*-------------------------- Domain --------------------------------*/
+.D{
+	font-size:16px;
+}
+.D SPAN{
+	color:#0452cb;
+}
+.BoxD .Ou{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-image:url(../img/DBottom.gif);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+}
+
+.BoxD .In{
+	border-left: 1px solid #e4e5e6;
+	border-right: 1px solid #e4e5e6;
+}
+
+.BoxD .D{
+	color: #0452cb;
+	padding-left: 16px;
+}
+
+.BoxD .D SPAN{
+	font-size: 18px;
+}
+
+.BoxD .LD{
+	padding-left: 30px;
+	padding-top: 30px;
+	height: 270px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.BoxD .LD LABEL{
+	font-weight: normal;
+	font-size: 11px;
+	padding-left: 2px;
+}
+
+.BoxD .LD TD{
+	padding-right: 20px;
+	padding-top: 2px;
+}
+
+.BoxD .DW{
+	float: left;
+	width: 47%;
+	border-right: 1px solid #3cabcf;
+	padding-left:2px;
+	height: 250px;
+}
+
+.BoxD .DV{
+	float: right;
+	padding-left:10px;
+}
+/*------------------copyright----------------------*/
+#copyright{
+	margin-top:5px;
+	font-size:11px;
+	font-weight:bold;
+	color:#666666;
+}
+#copyright a{
+	color:#666666;
+}
+#rowResult{
+
+}
+#rowResult DIV{
+border-top:solid 1px #CCCCCC;
+height:24px;
+text-align:left;
+}
+#rowResult DIV LABEL{
+margin-left:150px;
+}
+#rowResult STRONG{
+color:#CC3300;
+}
+#rowResult SPAN{
+font-weight:bold;
+color:#CC3300;
+text-decoration:line-through;
+}
+#rowResult a{
+color:#FF0000;
+text-decoration:none;
+}
+#rowResult a:hover{
+text-decoration:underline;
+}
+

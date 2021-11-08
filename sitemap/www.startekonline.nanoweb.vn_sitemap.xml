@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+<url>
+    <loc>http://www.startekonline.nanoweb.vn</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://staronline.nanoweb.vn/tin-tuc-nc,937</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://staronline.nanoweb.vn/tuyen-dung</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://staronline.nanoweb.vn/video</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://staronline.nanoweb.vn/lien-he</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+</urlset>

@@ -1,0 +1,61 @@
+<?php
+$time = 1458451260;
+$data=array("Domain Name: HANOI.ORG
+Domain ID: D103451186-LROR
+WHOIS Server:
+Referral URL: http://www.psi-usa.info
+Updated Date: 2015-12-16T01:35:42Z
+Creation Date: 2003-12-15T14:50:02Z
+Registry Expiry Date: 2016-12-15T14:50:02Z
+Sponsoring Registrar: PSI-USA, Inc. dba Domain Robot
+Sponsoring Registrar IANA ID: 151
+Domain Status: clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
+Registrant ID: ABM-111111
+Registrant Name: Admin Contact
+Registrant Organization: PrivateName Services Inc.
+Registrant Street: 1100-1200 West 73rd Avenue
+Registrant City: Vancouver
+Registrant State/Province: BC
+Registrant Postal Code: V6P 6G5
+Registrant Country: CA
+Registrant Phone: +1.6047572882
+Registrant Phone Ext:
+Registrant Fax: +1.6047572882
+Registrant Fax Ext:
+Registrant Email: info@privatename.com
+Admin ID: ABM-111111
+Admin Name: Admin Contact
+Admin Organization: PrivateName Services Inc.
+Admin Street: 1100-1200 West 73rd Avenue
+Admin City: Vancouver
+Admin State/Province: BC
+Admin Postal Code: V6P 6G5
+Admin Country: CA
+Admin Phone: +1.6047572882
+Admin Phone Ext:
+Admin Fax: +1.6047572882
+Admin Fax Ext:
+Admin Email: info@privatename.com
+Tech ID: ABM-111111
+Tech Name: Admin Contact
+Tech Organization: PrivateName Services Inc.
+Tech Street: 1100-1200 West 73rd Avenue
+Tech City: Vancouver
+Tech State/Province: BC
+Tech Postal Code: V6P 6G5
+Tech Country: CA
+Tech Phone: +1.6047572882
+Tech Phone Ext:
+Tech Fax: +1.6047572882
+Tech Fax Ext:
+Tech Email: info@privatename.com
+Name Server: NS1.SEDOPARKING.COM
+Name Server: NS2.SEDOPARKING.COM
+DNSSEC: unsigned
+>>> Last update of WHOIS database: 2016-03-19T02:49:17Z <<<
+
+\"For more information on Whois status codes, please visit https://icann.org/epp\"
+
+Access to Public Interest Registry WHOIS information is provided to assist persons in determining the contents of a domain name registration record in the Public Interest Registry registry database. The data in this record is provided by Public Interest Registry for informational purposes only, and Public Interest Registry does not guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to(a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Afilias except as reasonably necessary to register domain names or modify existing registrations. All rights reserved. Public Interest Registry reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.
+","");
+return array($time, $data);

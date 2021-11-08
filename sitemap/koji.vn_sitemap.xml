@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+<url>
+    <loc>http://koji.vn</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/news/news/category</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/news/news/detail</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/tin-khuyen-mai-pde,4290</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/tin-tuc-su-kien-nc,5774</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/cach-dat-lich-truoc-khi-den-spa-pde,4289</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/gioi-thieu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/sua-chua-bep-tu-nc,5776</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/sua-chua-tu-lanh-nc,5778</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/danh-muc-bai-viet-nc,5773</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/sua-chua-lo-vi-song-nc,5777</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/tin-tuc-nc,5782</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/lien-he</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/sua-chua-lo-nuong-nc,5775</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/sua-chua-may-giat-nc,5779</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/sua-chua-may-rua-bat-nc,5774</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/sua-chua-noi-com-dien-nc,5780</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://koji.vn/sua-chua-dieu-hoa-nc,5781</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+</urlset>

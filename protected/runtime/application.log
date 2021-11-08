@@ -1,0 +1,30 @@
+2015/07/10 15:22:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in /var/webserver/web3nhat.com/common/lib/Yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/webserver/web3nhat.com/common/components/WebApplication.php(33): CWebApplication->runController('favicon.ico')
+#1 /var/webserver/web3nhat.com/common/lib/Yii/web/CWebApplication.php(141): WebApplication->runController('favicon.ico')
+#2 /var/webserver/web3nhat.com/common/lib/Yii/base/CApplication.php(184): CWebApplication->processRequest()
+#3 /var/webserver/web3nhat.com/index.php(18): CApplication->run()
+#4 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://kimcuong.web3nhat.vn/quantri/login/login/login
+---
+2015/07/10 15:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in /var/webserver/web3nhat.com/common/lib/Yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/webserver/web3nhat.com/common/components/WebApplication.php(33): CWebApplication->runController('favicon.ico')
+#1 /var/webserver/web3nhat.com/common/lib/Yii/web/CWebApplication.php(141): WebApplication->runController('favicon.ico')
+#2 /var/webserver/web3nhat.com/common/lib/Yii/base/CApplication.php(184): CWebApplication->processRequest()
+#3 /var/webserver/web3nhat.com/index.php(18): CApplication->run()
+#4 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://nguyentacvang.web3nhat.vn/he-thong-truong-dao-tao-nghe-nd,1108
+---
+2015/07/10 15:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "favicon.ico".' in /var/webserver/web3nhat.com/common/lib/Yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/webserver/web3nhat.com/common/components/WebApplication.php(33): CWebApplication->runController('favicon.ico')
+#1 /var/webserver/web3nhat.com/common/lib/Yii/web/CWebApplication.php(141): WebApplication->runController('favicon.ico')
+#2 /var/webserver/web3nhat.com/common/lib/Yii/base/CApplication.php(184): CWebApplication->processRequest()
+#3 /var/webserver/web3nhat.com/index.php(18): CApplication->run()
+#4 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://nguyentacvang.web3nhat.vn/he-thong-truong-dao-tao-nghe-nd,1108
+---

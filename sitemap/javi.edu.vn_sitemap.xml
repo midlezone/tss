@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+<url>
+    <loc>http://javi.edu.vn</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/news/news/category</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/news/news/detail</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/tin-khuyen-mai-pde,3539</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/tin-tuc-su-kien-nc,4650</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/cach-dat-lich-truoc-khi-den-spa-pde,3538</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/gioi-thieu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/sua-chua-bep-tu-nc,4652</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/sua-chua-tu-lanh-nc,4654</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/danh-muc-bai-viet-nc,4649</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/sua-chua-lo-vi-song-nc,4653</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/tin-tuc-nc,4658</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/lien-he</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/sua-chua-lo-nuong-nc,4651</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/sua-chua-may-giat-nc,4655</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/sua-chua-may-rua-bat-nc,4650</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/sua-chua-noi-com-dien-nc,4656</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+<url>
+    <loc>http://javi.edu.vn/sua-chua-dieu-hoa-nc,4657</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5000</priority>
+</url>
+</urlset>

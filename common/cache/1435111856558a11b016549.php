@@ -1,0 +1,1 @@
+<?php return array('value'=> '{"username":"gpsglobal.pro@gmail.com","password":"b9bbccdf524b8879221b35b1eb69c3b2","rememberMe":1}', 'mode'=>true);

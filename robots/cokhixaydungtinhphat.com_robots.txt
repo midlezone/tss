@@ -1,0 +1,12 @@
+# Robots.txt
+User-agent: *
+Disallow: /images/
+Disallow: /dang-nhap
+Disallow: /dang-ky
+Disallow: /gio-hang
+Disallow: /gioi-thieu
+Disallow: /tuyen-dung
+Disallow: /album
+Disallow: /video
+Disallow: /gioi-thieu
+Sitemap: http://cokhixaydungtinhphat.com/sitemap.xml

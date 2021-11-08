@@ -1,0 +1,1 @@
+<a href="<?php echo Yii::app()->createUrl('/economy/shoppingcart/add', array('pid' => $pid)); ?>" title="Thêm vào giỏ hàng" class="addcart"></a>

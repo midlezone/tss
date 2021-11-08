@@ -1,0 +1,1 @@
+<?php return array('value'=> '{"username":"nguoibian12a4@gmail.com","password":"fbb9d4a5ee0e9be4af20b4e1eb268949","rememberMe":1}', 'mode'=>true);

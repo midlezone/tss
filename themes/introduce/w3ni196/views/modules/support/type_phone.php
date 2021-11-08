@@ -1,0 +1,1 @@
+<li class="hotline"><?php echo $data; ?></li>

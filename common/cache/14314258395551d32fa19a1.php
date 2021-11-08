@@ -1,0 +1,1 @@
+<?php return array('value'=> '{"username":"xxx@sharklasers.com","password":"74703152869079f78444b48322912287","rememberMe":1}', 'mode'=>true);

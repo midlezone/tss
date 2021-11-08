@@ -1,0 +1,1054 @@
+body {
+    background: #fff;
+}
+* {
+    font-family: tahoma;
+}
+.container {
+    background: #fff;
+    margin: 0px auto;
+    width: 1000px;
+}
+.login {
+    float: right;
+}
+.menu li + li:before {
+    content: " ";
+}
+.cont-header {
+    margin-top: 0px;
+}
+.logo {
+    width: 30%;
+    float: left;
+}
+.cont-header-r {
+    float: left;
+    width: 66%;
+    margin-left: 30px;
+    background: url(../img/bg-header-cont.png) no-repeat right 34px;
+}
+.header-baner{padding-top: 45px;
+              padding-left: 30px;
+              width: 37%;
+              float: right;
+}
+.timkiem {
+    float: left;
+    width: 33%;
+    margin-top: 70px;
+    padding-left: 33px;
+}
+.clear {
+    clear: both;
+}
+.phone p, .box-phone.gio-hang a {
+    font-weight: bold;
+    font-size: 14px;
+}
+.box-phone.gio-hang:last-child {
+    margin-left: 0px;
+    float: right;
+}
+.box-phone.gio-hang .phone{  padding-left: 0px; position: relative;}
+.box-phone.gio-hang .phone .countProduct{position: absolute; top: 2px; right: 15px; margin: auto; display: block; width: 18px; height: 18px; line-height: 18px; text-align: center; color: #FFF; background-color: #EB0909; border-radius: 9999px;}
+.box-phone {
+    /*  float: left;*/
+    /*  width: 27%;*/
+    float: right;
+    margin-left: 29px;
+}
+.box-phone.gio-hang {
+    margin-left: 15px;
+    text-align:center;
+}
+.box-phone.gio-hang .icon {
+    background: url(../img/icon-ght.png) 27px 2px no-repeat
+}
+.box-search {
+    background-color: #fff;
+    border: 1px solid #698900;
+    color: #666;
+    float: left;
+    font-size: 11px;
+    height: 30px;
+    padding: 7px 15px;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+}
+.searchform {
+    position: relative;
+}
+.searchbox .submitForm {
+    background: url("../img/icon-search.png") no-repeat scroll center center transparent;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.searchbox .form-control {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.phone .icon {
+    background: url(../img/icon-about.png) no-repeat scroll 30px 0px transparent;
+    display: block;
+    height: 39px;
+    margin-right: 5px;
+    margin-top: 0;
+    width: 78px;
+}
+#nav {
+    height: 45px;
+    background: #7eb636;
+    margin-top: 10px;
+}
+#nav .menu {
+    background: #7eb636;
+    z-index: 99999;
+}
+.box-menu .menu li {
+    padding: 0 10px;
+    line-height: 45px;
+}
+.box-menu .menu li + li:before {
+    padding: 0;
+}
+#nav .menu li a {
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+#nav .menu li:first-child {
+    padding-left: 20px;
+}
+#nav .menu li:hover {
+    background: #449014;
+}
+#content {
+    margin-top: 20px;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+.layout-2 #contentCol {
+    margin-left: 0px;
+}
+.centerContent {
+    padding: 0 0 15px 0px;
+    min-height: 0px;
+}
+.centerContent .main-list {
+    /*    padding: 14px 0px 13px 0;*/
+    background: #f7f7f7;
+    position: relative;
+}
+.icon-title {
+    background: url(../img/icon-title.png) no-repeat;
+    display: block;
+    width: 26px;
+    height: 48px;
+    position: absolute;
+    right: 436px;
+    top: -4px;
+}
+.centerContent .main-list h3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.centerContent .main-list span, .centerContent .main-list h3{
+    background:url(../img/bg-title.png) right no-repeat;
+    font-size: 14px;
+    color: #fff;
+    padding: 16px 30px 15px 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 50%;
+}
+.centerContent .main-list a {
+    color: #666;
+    float: right;
+    font-weight: bold;
+    line-height: 46px;
+    margin: auto;
+    padding-right: 25px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    text-transform: uppercase;
+    background:url(../img/bg-xtc.png) right 5px center no-repeat;
+}
+.centerContent .main-list a:hover {
+    color: #313230;
+}
+.center-main-center {
+    margin-top: 0px;
+}
+#centerCol .list.grid {
+    margin: -10px -10px 0px -10px;
+}
+.list.grid .list-item .list-content {
+    margin: 0px 10px;
+}
+#centerCol .list.grid .list-item {
+    height: auto;
+}
+
+#centerCol .list.grid .list-content {
+
+    padding: 5px 0px 30px 0px;
+    -moz-transition: all ease 1s;
+    -webkit-transition: all ease 1s;
+    transition: all ease 1s;
+}
+
+.list.grid .list-item .list-content-body .list-content-title {
+    height: 40px;
+}
+.footer-nd {
+    padding-left: 20px;
+    min-height: 196px;
+}
+#footer .footer-nd:first-child {
+    border-left: none;
+    padding-left: 0
+}
+.ProductActionAdd a, .ProductActionBuy a {
+    color: #fff;
+}
+#footer .row {
+    margin-left: 0px !important;
+}
+.sale .list-item .list-content-title{ text-align:center;}
+.sale .list-item .list-content-title a {
+    color: #333;
+    font-weight: bold !important;
+    font-size:14px;
+}
+.sale .list-item .list-content-title:hover a{color:#7EB636;}
+#footer {
+
+    padding-bottom: 10px;
+    border-top: 3px solid #7eb636;
+    margin-top: 20px
+}
+.footer-nd ul li{	list-style: none;}
+.footer-nd .htkh ul li ul li {
+    padding-left:20px;
+    background:url(../img/icon-li-footer.png) 0 5px no-repeat;
+}
+.footer-nd ul li ul li a:hover{ text-decoration:underline !important;}
+.footer-nd ul li a {
+    color: #666;
+    font-size: 14px;
+    line-height: 25px;
+}
+#footer .box {
+    padding: 20px 0px 0 0px;
+}
+.footer-nd, .designby a {
+    color: #666;
+}
+.footer-nd{ width:25%; float:left}
+.banner-top {
+    margin-left: 0px;
+}
+
+.centerConten .list .product-price {
+    float: right;
+}
+.product-price-market {
+    padding-top: 0px;
+}
+
+.btnsearch {
+    background: url(../img/icon-search.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: 0px;
+    border: none;
+    top: -4px;
+}
+.slideshow {
+    width: 74%;
+    float: left;
+}
+.guide {
+    width: 24%;
+    float: right;
+}
+.list.grid .list-item .list-content-box .list-content-img {
+    padding: 0px;
+    border: none;
+    width: 100%;
+    height: 300px;
+    float: none;
+    position: relative;
+}
+.list-content .list-content-img {
+    max-height: 300px !important;
+    width: 240px;
+    padding: 2px;
+    overflow:inherit;
+    margin: 0px 20px 2px 0px;
+}
+.list .product-price{ float:left;}
+.product-price-market{ text-decoration:none;  float:right; color:#999999; font-size:15px; font-weight:bold; padding-right:15px;}
+.list .product-price{ color:#9c0000; font-size:15px; padding-left:15px;}
+.list.grid .list-item .list-content-body .list-content-title{ margin-bottom:10px;}
+.footer-nd.col-md-5{ width:45%; float:left} 
+.footer-nd.col-md-7{ width:55%; float:left} 
+.htkh ul li h2,.addess ul li h2{ font-size: 18px;
+                                 font-weight: bold;
+                                 color: #666;
+}
+.addess ul li h2{ padding-bottom:8px;}
+.footer-nd .addess ul li a{ line-height:15px; font-size:12px}
+.addess ul li ul li{ padding-left:22px;}
+.addess ul li h3{ font-size:12px; color:#666;}
+.ht1, .ht2, .sdt, .diachi{ background:url(../img/icon-add.png) no-repeat;}
+.ht2{ background-position:0 -25px;}
+.sdt{ background-position:0 -49px;}
+.diachi{ background-position:0 -71px;}
+.footer-nd .logo{ width:100%;}
+.tag a{ color:#9caf55; font-size:12px;}
+.coppyright{ float:right;width: 200px; color:#9caf55;text-align: right;}
+.coppyright img{ float:right;}
+.designby{ text-align:left;}
+.timkiem.tk2{ display:none}
+.timkiem.tk2 .btnsearch {
+    bottom: -3px;
+    position: absolute;
+    right: -2px;
+    top: inherit;
+}
+.bg-sp{width: 100%;
+       background: rgba(0, 0, 0, 0.51);
+       position: absolute;
+       top: 100%;
+       left: 0;
+       z-index: 999;
+       padding:10px;
+       transition:all ease 0.5s;
+}
+.a-btn-2.black{ opacity:0; transition:1s all ease;}
+.bg-sp p{color: #f2f2f2;}
+.list-content-img{ overflow:hidden !important;}
+.list-item:hover .bg-sp{ top:0;}
+.list-item:hover .a-btn-2.black{ opacity:1;bottom: 20px;left:0;}
+.tag a:hover{ text-decoration:underline !important;}
+/* ################# BUTTON STYLE 2 ################# */
+
+
+.a-btn-2{
+    background: url(../img/cart.png) 10px 5px no-repeat;
+    background-color: #FD9D3D !important;
+    height: 35px;
+    display:inline-block;
+    position:relative;
+    border:1px solid #EC8825;
+    -webkit-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    clear:both;
+    overflow:hidden;
+    -webkit-transition:box-shadow  s ease-in-out;
+    -moz-transition:box-shadow 0.3s ease-in-out;
+    -o-transition:box-shadow 0.3s ease-in-out;
+    transition:box-shadow 0.3s ease-in-out;
+        width:110px;
+}
+.a-btn-2:hover{
+    background-color: #f46a26 !important;
+}
+.a-btn-2-text {
+    padding-left: 0px;
+    display: block;
+    font-size: 14px;
+    text-shadow: 0px -1px 1px #5d81ab;
+    padding-right: 2px;
+    font-family: tahoma;
+    position: absolute;
+    right: 10px;
+}
+/****************End BUTTON STYLE*****************/
+@media (min-width:1200px){ 
+    .ProductActionAdd {
+        margin-right: 16px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .header-baner{ width:100%; padding-top:0; padding-bottom:10px; float:none;}
+    .timkiem.tk2{ display:block}
+
+    .timkiem.tk1{ display:none}
+    .map{ min-height:50px;}
+    .container, #header .top-header .login, #header .logo, #header .cont-header-r, #header .cont-header, #leftCol, #contentCol, .footer, .list.grid .list-item, #footer, .footer-nd {
+        width: 100%;
+        float: none;
+    }
+    .layout-2 #contentCol {
+        margin-left: 0px;
+    }
+    #nav {
+        min-height: 100px;
+    }
+    #nav .menu, .footer-nd.col-md-5, .footer-nd.col-md-7 {
+        width: 100%;
+    }
+    #nav .menu li {
+        float: none;
+    }
+    .banner-top {
+        margin-left: 0px;
+    }
+    .centerContent {
+        padding: 15px 0 15px 0px;
+    }
+    .cont-header-r{ width:100%; background:none; margin-left:0px;}
+    .timkiem {
+        width: 95%;
+        margin: 0px auto;
+        float:none;
+    }
+    .box-phone{ margin-top:10px;}
+    .centerContent .main-list span {
+        padding: 16px 42px 15px 20px;
+    }
+    #cssmenu > ul > li.active{ height:53px !important;}
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .product-all .list.grid .list-item, .footer-nd {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .footer-nd {
+        width: 23.5%;
+    }
+    .container {
+        width: 100%
+    }
+    .product-all .list.grid .list-item {
+        width: 33.333333%;
+    }
+    .product-all .list.grid .list-item:last-child {
+        display: none;
+    }
+    #nav {
+        min-height: 100px;
+    }
+    .ProductActionAdd {
+        margin-right: 2px;
+    }
+    #centerCol .list.grid .list-item:last-child {
+        display: none;
+    }
+    #centerCol .sale .list.grid .list-item:first-child {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:994px) {
+    #nav .menu li a {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:1200px) {
+    .container {
+        width: 100%;
+    }
+    .banner-top, .banner-top .jcarousel-wrapper, .banner-top .jcarousel, .banner-top .jcarousel li, .jcarousel img, .jcarousel ul {
+        max-width: 100%;
+    }
+    #content .banner-top, .banner-top .jcarousel {
+        min-height: 100%;
+    }
+    .banner-top .jcarousel-wrapper, .banner-top .jcarousel li {
+        height: 100%;
+    }
+    .jcarousel li {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #nav {
+        position: relative;
+        min-height: 40px;
+    }
+    #nav ul {
+        width: 180px;
+        padding: 5px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    #nav li {
+        display: none; /* hide all <li>items */
+        margin: 0;
+    }
+    #nav .current {
+        display: block; /* show only current <li> item */
+    }
+    #nav a {
+        display: block;
+        padding: 5px 5px 5px 32px;
+        text-align: left;
+    }
+    #nav .current a {
+        background: none;
+        color: #666;
+    }
+    /* on nav hover */
+    #nav ul:hover {
+        background-image: none;
+    }
+    #nav ul:hover li {
+        display: block;
+        margin: 0 0 5px;
+    }
+    #nav ul:hover .current {
+        background: url(images/icon-check.png) no-repeat 10px 7px;
+    }
+    /* right nav */
+    #nav.right ul {
+        left: auto;
+        right: 0;
+    }
+    /* center nav */
+    #nav.center ul {
+        left: 50%;
+        margin-left: -90px;
+    }
+}
+
+
+
+.center-main-center a.view-all {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    line-height: 16px;
+    font-weight: normal;
+    font-size: 11px;
+}
+.main-list .border-list {
+    position: relative;
+}
+.fb_iframe_widget, .fb_iframe_widget * {
+    max-width: 100%;
+}
+/*overload main*/
+.product-detail .product-detail-box .product-detail-info label {
+    color: #34571e;
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+a {
+    color: #34571e;
+    text-decoration: none;
+}
+.btn {
+    border-radius: 0px;
+}
+.list.grid .list-content .list-content-img img {
+    max-height: 300px;
+    max-width: 100%;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 0px;
+}
+.ivslider {
+    height: 350px
+}
+.list.list-small .list-content .list-content-img {
+    width: 80px;
+}
+.sale .list-content .list-content-img img {
+    max-width: 80px;
+    max-height: 80px;
+    display: block;
+}
+.list.list-small .list-content .list-content-body {
+    margin-left: 90px;
+}
+.list.list-small .list-item {
+    margin: 0 10px;
+}
+.submenu .menu li a {
+    padding: 6px 15px;
+    border-left: none
+}
+#nav .submenu .menu li {
+    padding-left: 0px;
+}
+.submenu .menu {
+    left: 0px;
+}
+/*overload main*/
+
+/********** Start Menu Responsive**********/
+
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a, #cssmenu #menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#cssmenu:after, #cssmenu > ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+#cssmenu #menu-button {
+    display: none;
+}
+#cssmenu {
+    width: auto;
+    font-family: tahoma;
+    line-height: 1;
+    margin-top: 10px;
+    height: 49px;
+    border: 1px solid #93a945;
+}
+#menu-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background: rgba(36, 44, 48, 0);
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -ms-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+#cssmenu > ul > li {
+    float: left;
+    border-bottom: 1px solid #93a945;
+    border-right: 1px solid #93a945;
+    height: 48px;
+}
+#cssmenu > ul > li:last-child{ border-right:none;}
+#cssmenu ul li:hover {
+    background: #7eb636;
+    height: 48px;
+}
+#cssmenu ul li ul li:hover>a {
+    background: #4C7E2C;
+}
+#cssmenu.align-center > ul {
+    font-size: 0;
+    text-align: center;
+}
+#cssmenu.align-center > ul > li {
+    display: inline-block;
+    float: none;
+}
+#cssmenu.align-center ul ul {
+    text-align: left;
+}
+#cssmenu.align-right > ul > li {
+    float: right;
+}
+#cssmenu.align-right ul ul {
+    text-align: right;
+}
+.icon-home {
+    background: url(../img/icon-home.png) 5px no-repeat;
+    width: 28px;
+    height: 15px;
+    display: block;
+}
+#cssmenu > ul > li > a {
+    padding: 17px 12px 18px 12px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #546a05;
+    font-weight: 500;
+    font-family: tahoma;
+    -webkit-transition: color .2s ease;
+    -moz-transition: color .2s ease;
+    -ms-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+}
+#cssmenu > ul > li:hover > a, #cssmenu > ul > li.active > a {
+    color: #fff;
+}
+#cssmenu > ul > li.active {
+    background: #7eb636;
+    height: 48px;
+}
+#cssmenu > ul > li.has-sub > a {
+    padding-right: 25px;
+}
+#cssmenu > ul > li.has-sub > a::after {
+    position: absolute;
+    top: 21px;
+    right: 10px;
+    width: 4px;
+    height: 4px;
+    border-bottom: 1px solid #546a05;
+    border-right: 1px solid #546a05;
+    content: "";
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: border-color 0.2s ease;
+    -moz-transition: border-color 0.2s ease;
+    -ms-transition: border-color 0.2s ease;
+    -o-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease;
+}
+#cssmenu > ul > li.has-sub:hover > a::after {
+    border-color: #fff;
+}
+#cssmenu ul ul {
+    position: absolute;
+    left: -9999px;
+    z-index: 10;/*  top:45px;*/
+}
+#cssmenu li:hover > ul {
+    left: auto;
+}
+#cssmenu.align-right li:hover > ul {
+    right: 0;
+}
+#cssmenu ul ul ul {
+    margin-left: 100%;
+    top: 0;
+}
+#cssmenu.align-right ul ul ul {
+    margin-left: 0;
+    margin-right: 100%;
+}
+#cssmenu ul ul li {
+    height: 0;
+    -webkit-transition: height .2s ease;
+    -moz-transition: height .2s ease;
+    -ms-transition: height .2s ease;
+    -o-transition: height .2s ease;
+    transition: height .2s ease;
+}
+#cssmenu ul li:hover > ul > li {
+    height: 34px;
+    border-top: 1px solid #639129;
+    border-bottom: 1px solid #86c239;
+}
+#cssmenu ul ul li a {
+    padding: 10px 20px;
+    width: 250px;
+    font-size: 12px;
+    background: #7eb636;
+    text-decoration: none;
+    color: #fff;
+    text-transform:none;
+    -webkit-transition: color .2s ease;
+    -moz-transition: color .2s ease;
+    -ms-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+}
+#cssmenu ul ul li {
+    border-top: 1px solid #639129;
+    border-bottom: 1px solid #86c239;
+}
+#cssmenu ul ul li:hover > a, #cssmenu ul ul li a:hover {
+    color: #ffffff;
+}
+#cssmenu ul ul li.has-sub > a::after {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    width: 4px;
+    height: 4px;
+    border-bottom: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    content: "";
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: border-color 0.2s ease;
+    -moz-transition: border-color 0.2s ease;
+    -ms-transition: border-color 0.2s ease;
+    -o-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease;
+}
+#cssmenu.align-right ul ul li.has-sub > a::after {
+    right: auto;
+    left: 10px;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+#cssmenu ul ul li.has-sub:hover > a::after {
+    border-color: #ffffff;
+}
+
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+    #cssmenu {
+        width: 100%;
+    }
+    #cssmenu ul {
+        width: 100%;
+        display: none;
+    }
+    #cssmenu.align-center > ul,  #cssmenu.align-right ul ul {
+        text-align: left;
+    }
+    #cssmenu ul li,  #cssmenu ul ul li,  #cssmenu ul li:hover > ul > li {
+        width: 100%;
+        height: 100%;
+    }
+    #cssmenu ul li a,  #cssmenu ul ul li a {
+        width: 100%;
+    }
+    #cssmenu > ul > li,  #cssmenu.align-center > ul > li,  #cssmenu.align-right > ul > li {
+        float: none;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    #cssmenu ul li:hover {
+        float: none;
+        display: block;
+        width: 100% !important;
+        height: 100%!important;
+    }
+    #cssmenu ul ul li a {
+        padding: 15px 20px 16px 30px;
+        font-size: 12px;
+        color: #546a05; text-transform:none;
+        background: none;
+    }
+    #cssmenu ul ul li:hover > a,  #cssmenu ul ul li a:hover {
+    }
+    #cssmenu ul ul ul li a {
+        padding-left: 40px;
+    }
+    #cssmenu ul ul,  #cssmenu ul ul ul {
+        position: relative;
+        left: 0;
+        right: auto;
+        width: 100%;
+        margin: 0;
+    }
+    #cssmenu > ul > li.has-sub > a::after,  #cssmenu ul ul li.has-sub > a::after {
+        display: none;
+    }
+    #menu-line {
+        display: none;
+    }
+    #cssmenu #menu-button {
+        display: block;
+        padding: 20px;
+        color: #7EB636;
+        cursor: pointer;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    #cssmenu ul {
+        z-index: 99;
+        background: #fff;
+    }
+    #cssmenu #menu-button::after {
+        content: '';
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        display: block;
+        width: 15px;
+        height: 2px;
+        background: #7EB636;
+    }
+    #cssmenu #menu-button::before {
+        content: '';
+        position: absolute;
+        top: 23px;
+        right: 20px;
+        display: block;
+        width: 15px;
+        height: 7px;
+        border-top: 2px solid #7EB636;
+        border-bottom: 2px solid #7EB636;
+    }
+    #cssmenu .submenu-button {
+        position: absolute;
+        z-index: 10;
+        right: 0;
+        top: 0;
+        display: block;
+        border-left: 1px solid rgba(120, 120, 120, 0.15);
+        height: 48px;
+        width: 48px;
+        cursor: pointer;
+    }
+    #cssmenu .submenu-button::after {
+        content: '';
+        position: absolute;
+        top: 18px;
+        left: 26px;
+        display: block;
+        width: 1px;
+        height: 11px;
+        background:#546a05;
+        z-index: 99;
+    }
+    #cssmenu .submenu-button::before {
+        content: '';
+        position: absolute;
+        left: 21px;
+        top: 23px;
+        display: block;
+        width: 11px;
+        height: 1px;
+        background: #546a05;
+        z-index: 99;
+    }
+    #cssmenu .submenu-button.submenu-opened:after {
+        display: none;
+    }
+}
+/********** End Menu Responsive**********/
+/*********Slider******/
+.captionOrange, .captionBlack {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+.captionOrange {
+    background: #000;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.captionBlack {
+    font-size: 16px;
+    background: #000;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+a.captionOrange, A.captionOrange:active, A.captionOrange:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+a.captionOrange:hover {
+    color: #eb5100;
+    text-decoration: underline;
+    background-color: #eeeeee;
+    background-color: rgba(238, 238, 238, 0.7);
+}
+.bricon {
+    background: url(../img/browser-icons.png);
+}
+/* jssor slider bullet navigator skin 01 css */
+/*
+.jssorb01 div           (normal)
+.jssorb01 div:hover     (normal mouseover)
+.jssorb01 .av           (active)
+.jssorb01 .av:hover     (active mouseover)
+.jssorb01 .dn           (mousedown)
+*/
+.jssorb01 {
+    position: absolute;
+}
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 12px;
+    height: 12px;
+    filter: alpha(opacity=70);
+    opacity: .7;
+    overflow: hidden;
+    cursor: pointer;
+    border: #000 1px solid;
+}
+.jssorb01 div {
+    background-color: gray;
+}
+.jssorb01 div:hover, .jssorb01 .av:hover {
+    background-color: #d3d3d3;
+}
+.jssorb01 .av {
+    background-color: #fff;
+}
+.jssorb01 .dn, .jssorb01 .dn:hover {
+    background-color: #555555;
+}
+/* jssor slider arrow navigator skin 05 css */
+/*
+.jssora05l                  (normal)
+.jssora05r                  (normal)
+.jssora05l:hover            (normal mouseover)
+.jssora05r:hover            (normal mouseover)
+.jssora05l.jssora05ldn      (mousedown)
+.jssora05r.jssora05rdn      (mousedown)
+*/
+.jssora05l, .jssora05r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: url(../img/a17.png) no-repeat;
+    overflow: hidden;
+}
+.jssora05l {
+    background-position: -10px -40px;
+}
+.jssora05r {
+    background-position: -70px -40px;
+}
+.jssora05l:hover {
+    background-position: -130px -40px;
+}
+.jssora05r:hover {
+    background-position: -190px -40px;
+}
+.jssora05l.jssora05ldn {
+    background-position: -250px -40px;
+}
+.jssora05r.jssora05rdn {
+    background-position: -310px -40px;
+}
+.jcarousel-wrapper{background-color: transparent;}
+/**********End-slider*********/
+.footer .supportbox{border:none;box-shadow: none; -webkit-box-shadow: none;}
+.footer .supportbox .panel-heading{background-color: transparent;text-transform: none; border: none; padding:0px 0px 5px 0px;}
+.footer .supportbox .panel-heading h3,.footer .supportbox .panel-heading h4{font-weight: bold;font-size: 14px; line-height: 25px;}
+.menu-footer .menu-col{padding: 0px;}

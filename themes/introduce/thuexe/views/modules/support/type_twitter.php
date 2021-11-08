@@ -1,0 +1,1 @@
+<a href="<?php echo $data['link'] ?>" rel="nofollow"> <i class="tw"></i></a>

@@ -1,0 +1,3 @@
+<li class="hotline">
+    <a href="tel:<?php echo $data['phone']; ?>" style="color:red"><?php echo $data['phone']; ?></a>
+</li>

@@ -1,0 +1,1 @@
+<?php return array('value'=> '{"username":"anhdn@vud.com.vn","password":"4f84325064e0c54d8d9dbcd78e8fba7c","rememberMe":1}', 'mode'=>true);

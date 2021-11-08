@@ -1,0 +1,1 @@
+<li class="skype"><a href="skype:<?php echo $data['nick'] ?>?chat"><?php echo $data['nick'] ?></a></li>

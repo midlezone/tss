@@ -1,0 +1,88 @@
+.fontawesome-icon{display: block;margin: 0px auto;margin-top: 0px;font-size: 90px;padding-top: 10px;color:#fff;width: 190px;height: 190px;background: #f16600;text-align: center;-moz-border-radius: 150px;-webkit-border-radius: 150px;border-radius: 150px;padding-top:30px}
+.home-review{background: url(../images/combo-bg.jpg);height: 480px}
+.home-review .title{padding-top: 30px;text-align: center;font-size: 30px;color: #fff}
+.home-review .video{width: 520px;float: left;font-size: 14px;}
+.home-review h1{color: #fff;font-size: 30px!important;}
+.home-review .content{width: 520px;float: left;font-size: 14px;margin-left: 35px}
+.home-review p{color: #fff;padding-bottom: 25px;line-height: 25px;}
+.home-news {height: 600px}
+.home-news h4{font-weight: bold;font-size: 16px!important;color:#000;border-bottom: 1px solid #ccc;padding-bottom: 10px;}
+.home-news .news{padding-top: 25px;width: 370px;float: left;font-size: 16px;margin-right: 25px}
+.home-news .support{padding-top: 25px;width: 380px;float: left;font-size: 16px;margin-right: 25px;}
+.home-news .links{padding-top: 25px;width: 350px;float: left;font-size: 16px;}
+.home-news .news .list-content .list-content-img {border: 1px solid #d0d0d0;float: left;max-height: 200px;width: 110px;padding: 2px;overflow: hidden;margin: 0 20px 2px 0;}
+.home-news .support .list-content .list-content-img {border: 1px solid #f7f3f3;float: left;max-height: 200px;width: 110px;padding: 2px;overflow: hidden;margin: 0 20px 2px 0;}
+.home-news .links ul li{list-style: none;width: 110px;float: left;padding-left: 9px;padding-bottom: 9px;position: relative;overflow: hidden}
+.col{position: relative;min-height: 1px;}
+.home-news .links img{width: 120px;float: left;}
+.fb-page {padding-top: 20px;}
+.widget {margin-bottom: 0px;font-size: 14px;}
+#footer h5.widget_title2 {color: #fff;border-bottom: 1px solid #70797d;padding-bottom: 15px;font-size: 14px;}
+.widget_title{color: #fff;}
+.widget_custom_posts ul li {margin: 0 0 1px 0;color: #fff;}
+.widget_custom_posts2 ul li {margin: 0 0 1px 0;color: #9f9f9f;}
+.col {float: left;}
+.col_4_of_12 {width: 33.33333333%;padding-bottom: 10px;}
+.col_3_of_12 { width: 307px;}
+.col_6_of_12 {width: 580px;}
+.col {position: relative;min-height: 1px;padding-left: 10px;padding-right: 10px;}
+.widget ul, .widget ol {list-style: none;padding: 0;}
+.widget ul li a {color: #c7cbcd;}
+.widget ul li a:hover {color: #E2690D;}
+.btn-newletter{background: #1d2527;}
+.socials {float: left;font-size: 36px;color: #9f9f9f;}
+.copyright{padding-top: 15px;padding-bottom: 12px;background: #191f25;color: #fff}
+.home-themes .title{text-align: center;color: #000;font-size: 15pt;padding-top:20px;font-family: 'utmavo' !important; font-weight: bold;text-transform: uppercase;}
+.home-themes p {text-align: center; font-size: 16px;}
+/************Slider**********/
+
+.jssorb21 {position: absolute;}
+.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 19px;
+    height: 19px;
+    text-align: center;
+    line-height: 19px;
+    color: white;
+    font-size: 12px;
+    background: url(../img/b21.png) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb21 div { background-position: -5px -5px; }
+.jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
+.jssorb21 .av { background-position: -65px -5px; }
+.jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
+
+
+.jssora21l, .jssora21r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: url(../img/a21.png) center center no-repeat;
+    overflow: hidden;
+}
+.jssora21l { background-position: -3px -33px; }
+.jssora21r { background-position: -63px -33px; }
+.jssora21l:hover { background-position: -123px -33px; }
+.jssora21r:hover { background-position: -183px -33px; }
+.jssora21l.jssora21ldn { background-position: -243px -33px; }
+.jssora21r.jssora21rdn { background-position: -303px -33px; }
+/*********END SLIDER **************/
+.list-content .list-content-img img{height: auto; width: 200px;}
+.home-news .links img{border: 1px solid #e7e7e7;padding: 3px; }
+.title-service{text-align: center;}
+.list-content-body .list-content-title b:hover{color: #f16600;}
+.container{width: 1200px!important;}
+.hot-ringht {
+    width: 120px!important;
+}
+@font-face {
+    font-family: 'utmavo';
+    src: url('./utmavo.eot');
+    src: local('utmavo'), url('./utmavo.woff') format('woff'), url('./utmavo.ttf') format('truetype');
+}

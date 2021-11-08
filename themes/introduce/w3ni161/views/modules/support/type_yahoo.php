@@ -1,0 +1,1 @@
+<li class="yahoo"><span><?php echo $data['nick'] ?></span></li>

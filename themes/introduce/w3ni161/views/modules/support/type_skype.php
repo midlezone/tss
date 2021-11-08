@@ -1,0 +1,1 @@
+<li class="skype"><span><?php echo $data['nick'] ?></span></li>

@@ -1,0 +1,1 @@
+<?php return array('value'=> '{"username":"lunashopvietnam@gmail.com","password":"bb346ca7d586d2e986ea109ec13e1c23","rememberMe":1}', 'mode'=>true);

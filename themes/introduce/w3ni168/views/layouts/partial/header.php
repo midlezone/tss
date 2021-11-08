@@ -1,0 +1,70 @@
+<div id="header">
+    <div class="top-header">
+        <div class="container clearfix">
+            <?php
+            $this->widget('common.widgets.wglobal.wglobal', array('position' => Widgets::POS_TOP_HEADER));
+            ?>
+            <div class="welcome">
+                <marquee align="center" direction="left" scrollamount="4" width="65%" style="width: 65%;">
+                    <?php
+                    $this->widget('common.widgets.wglobal.wglobal', array('position' => Widgets::POS_CENTER_BLOCK1));
+                    ?>
+                </marquee>
+            </div>
+            <div class="login">
+                <ul class="menu">
+                    <?php if (Yii::app()->user->isGuest) { ?>
+                        <li>
+                            <a href="<?php echo Yii::app()->createUrl('login/login/login'); ?>">
+                                <?php echo Yii::t('common', 'login'); ?>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?php echo Yii::app()->createUrl('login/login/signup'); ?>">
+                                <?php echo Yii::t('common', 'signup'); ?>
+                            </a>
+                        </li>
+                    <?php } else { 
+                        $user = Users::getCurrentUser();
+                        ?>
+                        <li>
+                            <a href="<?php echo Yii::app()->createUrl('profile/profile'); ?>">
+                                Xin chào: <?php echo $user->name ?>
+                            </a>
+                        </li>
+                    <?php } ?>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="cont-header">
+        <div class="container clearfix">
+            <div class="logo">
+                <h1>
+                    <a href="<?php echo Yii::app()->homeUrl; ?>" title="<?php echo Yii::app()->siteinfo['site_title']; ?>">
+                        <img alt="Về trang chủ" src="<?php echo Yii::app()->siteinfo['site_logo']; ?>" />
+                        <span class="hide-text"><?php echo Yii::app()->siteinfo['site_title']; ?></span>
+                    </a>
+                </h1>
+            </div>
+            <div class="cont-header-r">
+                <div class="box clearfix">
+                    <div class="timkiem">
+                        <?php
+                        $this->widget('common.widgets.wglobal.wglobal', array('position' => Widgets::POS_TOP_CENTER));
+                        ?>
+                        
+                        <!--end-search-form--> 
+                    </div>
+                    <div class="cart-cont">
+                        <?php
+                        $this->widget('common.widgets.wglobal.wglobal', array('position' => Widgets::POS_HEADER_RIGHT));
+                        ?>
+                        
+                    </div>
+                    <!--end-timkiem--> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

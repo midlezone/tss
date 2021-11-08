@@ -1,0 +1,218 @@
+/*
+	Theme Name: Rehub child theme
+	Theme URI: https://themeforest.net/item/rehub-directory-multi-vendor-shop-coupon-affiliate-theme/7646339
+	Description: A Hybrid magazine/shop/review/news Wordpress Theme
+	Author: Wpsoul
+	Author URI: https://wpsoul.com/
+	Version: 7.1.7
+	Template: rehub
+	Text Domain: rehubchild
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+.carousel-item .re_thing_btn a, .carousel-item .re_thing_btn .rehub_offer_coupon{padding: 5px 12px}
+.single .tags{margin: 0}
+body{background: none #ececec}
+.top_share .row_social_inpost span, .top_share .favour_in_row{float: none;display: inline-block;}
+.rething_item.small_post{ overflow: hidden; float: left;   padding: 0; border: 1px solid #ddd; text-align: center;}
+.small_post figure{overflow: hidden;}
+.rething_item.small_post .cat_link_meta:before{ display: none;}
+.small_post .re-line-badge.re-line-table-badge{left: 0}
+.small_post .re-line-badge.re-line-table-badge span::before{display: none;}
+.col_wrap_two, .col_wrap_three, .col_wrap_fourth{padding-top: 5px}
+.wrap_thing { padding: 20px 30px 30px 30px;}
+.rething_item a.cat{ font: 12px Arial; text-transform: uppercase; color: #111 !important; text-decoration: none !important}
+.top_share .post_share{ text-align: center;}
+.top_share .post_share{ margin-bottom: 25px}
+.top_share .post_share div.share-item{ float: none;}
+.post_share div.share-item{ background-color: transparent;}
+.title_single_area{border: none; margin: 0}
+.main-side .title_single_area{ margin-bottom: 20px}
+.sidebar .tabs-item .detail .post-meta a{color: #111}
+.hover_anons {position: relative;overflow: hidden;min-height: 220px;max-height: 220px;margin: 0px auto 5px;max-width: 900px;display: block;}
+.hover_anons:after {content: " ";display: block;position: absolute;border-bottom: 0;left: 0;bottom: 0px;width: 100%;height: 70px;
+background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffffff', GradientType=0);}
+.one-col-gridhub .hover_anons {min-height: 160px; max-height: 160px;}
+.flexslider .fa-pulse{ display: none}
+.post figure{ margin-bottom: 30px}
+.noadb{ background-color: #EBE4D6}
+ul.page-numbers{font-size: 1.1em}
+.more_post.index_next_pagination a{ background-color: #fff; color: #111; font-size: 18px; text-transform: uppercase; border: 1px solid #ddd;}
+.more_post.index_next_pagination a:hover{ background-color: #111; color: #fff}
+.more_post.index_next_pagination {margin: 20px auto 30px auto; clear: both; max-width: 300px;}
+.pagination{margin: 20px auto 30px auto;}
+.related_articles{ border: none; box-shadow: none; clear: both; padding: 0}
+.related_articles .related_title{ margin: 0 auto 25px; position: relative;}
+.related_articles .related_title:after, .lined_r_title:after{height: 3px; width: 40px; height: 4px; background-color: #ddd; display: block; margin: 10px auto; content: "";}
+#comments .title_comments{ text-align: center;}
+.bottom_meta{ padding: 25px 0; border-top: 1px solid #ddd;  border-bottom: 1px solid #ddd; margin-top: 30px; overflow: hidden;}
+.bottom_meta .post_share{ margin: 0}
+.bottom_meta .left_meta{ margin-bottom: 15px; color: #bcbcbc}
+.bottom_meta .left_meta > span{ padding-right: 8px}
+.main-side.full_width .left_meta{ float: left; width: 48%; margin-bottom: 0}
+.main-side.full_width .right_meta{ float: right; width: 48%}
+.bottom_meta .post_share{text-align: left;}
+.main-side.full_width .bottom_meta .post_share{text-align: right;}
+.bottom_meta .admin_meta i, .bottom_meta .tags_meta i{ font-size: 11px; margin-right: 5px}
+.admin_meta a, .tags_meta a{ color: #111; font-size: 12px}
+.lined_r_title{ font-size: 20px; text-transform: uppercase; margin: 45px auto 35px auto;position: relative; text-align: center; font-weight: bold;}
+.post_share #s-facebook span{ vertical-align: top !important;}
+.add_user_review_link{ font-size: 13px}
+.product_title_visible{min-height: 130px;max-height: 130px;overflow: hidden;}
+.heading, .title h1, .title h5{ border: none;}
+.grid_catalog.small_post{ padding: 0}
+.grid_catalog.small_post figure{ margin-bottom: 0}
+.grid_catalog.small_post .content_constructor{padding: 15px 20px}
+#infscr-loading{ bottom: 0}
+.top_rating_item .re_thing_btn:before{ display: none;}
+.postNavigation a {display: inline-block;background: #D7D7D7; box-shadow: none;}
+.meta .wpsm-button-new-compare{ float: none;margin: 0 15px 5px 15px;}
+.small_post.no_crop_grid figure > a img{width: auto}
+.small_post.no_crop_grid figure{padding: 20px}
+span.thing-post-like{ -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -ms-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; background-color: rgba(255, 255, 255, 0.9); width: 60px; height: 55px; text-align: center; position: absolute; bottom: -55px; left: 50%; margin-left: -30px; z-index: 9}
+span.thing-post-like a{ display: block; text-decoration: none;}
+figure:hover .thing-post-like{bottom:0;}
+span.thing-post-like span{ line-height: 14px; display: block;}
+span.thing-post-like .like{ font-size: 18px; color: #f25d62 !important; margin: 10px auto 4px auto}
+span.thing-post-like .count{ color: #111; font-size: 14px; margin: 0 auto}
+span.like_meta i{ font-size: 11px}
+span.like_meta, .post-meta .thing-post-like{ margin-left: 5px}
+.news span.thing-post-like{ width: 30px; height: 30px; margin-left: -15px}
+.news span.thing-post-like .like{ font-size: 13px; margin: 3px auto 2px auto}
+.news span.thing-post-like .count{ font-size: 11px}
+.news span.thing-post-like span{ line-height: 12px;}
+.news figure{ overflow: hidden;}
+.top_featured_image span.thing-post-like, .gallery_top_slider span.thing-post-like{ top: 0;}
+.top_featured_image:hover span.thing-post-like{ top: 0;}
+.slides figure{ margin: 0}
+.inline_like span.thing-post-like{ position: static; width: auto; height: auto; margin: 0; font-size: 14px; background-color: transparent;}
+.inline_like span.thing-post-like .like, .inline_like span.thing-post-like .count{font-size: 13px}
+.inline_like span.thing-post-like a, .inline_like span.thing-post-like span{ display: inline}
+
+.col_wrap_two, .col_wrap_three, .col_wrap_fourth, .col_wrap_fifth{overflow: hidden;}
+.one-col-gridhub .small_post{ width: 100%; float: none;}
+.one-col-featured.rething_item{ width: 97%; text-align: left; float: none;}
+.rething_item.small_post figure{ margin: 0; overflow: hidden;}
+.rething_item.small_post .priced_block { margin: 0}
+.rething_item.small_post h2{ letter-spacing: 1px; margin-bottom: 15px}
+.featured_mediad_wrap{ float: right; margin: 35px 0 15px 55px; width: 300px; height: 250px}
+.rething_item .pattern{ background: none transparent; }
+
+.main_slider .re_thing_btn .rehub_offer_coupon.masked_coupon:after{background-color: transparent;}
+.re_thing_btn a, .re_thing_btn .rehub_offer_coupon{display: inline-block; padding: 10px 22px;font-size: 13px;line-height: 1.33333;border-radius: 0px; color: #FFF !important;  text-transform: uppercase; position: relative;
+ font-family: Arial; text-decoration: none !important;}
+.sidebar .re_thing_btn a, .sidebar .re_thing_btn .rehub_offer_coupon { padding: 2px 4px; font-size: 12px; text-transform: none;}
+.re_thing_btn ins{ text-decoration: none;}
+.re_thing_btn del{ font-size: 11px; opacity: 0.4}
+.re_thing_btn.continue_thing_btn a, .re_thing_btn .rehub_offer_coupon.not_masked_coupon{ background-color: transparent;  }
+.re_thing_btn .rehub_offer_coupon.masked_coupon{ font: normal 13px/1.3333 Arial}
+.re_thing_btn .rehub_offer_coupon.masked_coupon.expired_coupon{}
+.re_thing_btn .rehub_offer_coupon{border-style: dashed;}
+.re_thing_btn .rehub_offer_coupon.masked_coupon:after{position: absolute; right: -1px; top: -1px; bottom: -1px; width: 14px; background-color: #fff; content: ""; display: block; }
+.masonry_grid_fullwidth .re_thing_btn{ margin-bottom: 5px}
+.re_thing_btn.continue_thing_btn.no_brd_btn a{ border-color: transparent !important; padding: 10px 0; background-color: transparent !important;}
+.re_thing_btn.continue_thing_btn.no_brd_btn a:hover{ background-color: transparent !important; color: #111 !important; border-color: transparent !important;}
+.main_slider .re_thing_btn.continue_thing_btn.no_brd_btn a, .main_slider .re_thing_btn.continue_thing_btn.no_brd_btn a:hover, .main_slider .re_thing_btn.continue_thing_btn a, .re_thing_btn .rehub_offer_coupon.not_masked_coupon {color: #fff !important}
+article{ font-size: 16px; line-height: 25px}
+article p, article h2, article h3, article h4{ margin: 0 0 30px 0}
+article h5, article h6{margin: 0 0 20px 0}
+
+.sidebar .widget.top_offers .title:before{color: #f99800}
+.sidebar .widget.top_offers{border: 1px solid #B07C01;}
+.rh-deal-compact-btn{ font-size: 13px}
+.widget.better_menu .orange_menu_widget{ background-color: #f99800; }
+
+.sidebar .widget.widget-meta-data-filter, .sidebar .widget.widget-meta-data-filter h4.data-filter-section-title{ background-color: transparent; padding: 0; color: #111}
+.sidebar .widget.widget-meta-data-filter h3, .sidebar .widget.widget-meta-data-filter h5, .sidebar .widget.widget-meta-data-filter h4 a, .sidebar .mdf_widget_found_count{ color: #111}
+.sidebar .widget.widget-meta-data-filter h4.data-filter-section-title{margin: 20px 0 10px !important;}
+.widget-meta-data-filter h3:after{height: 3px; width: 40px; height: 4px; background-color: #ddd; display: block; margin: 10px 0; content: "";}
+.widget-meta-data-filter h3{ margin-bottom: 20px}
+.sidebar .widget.widget-meta-data-filter .mdf_textinput, .sidebar .widget.widget-meta-data-filter select{ border: 1px solid #ddd}
+
+.re_carousel .container{ padding: 0 50px; margin: 0 -10px;}
+.re_carousel .preview{ margin: 0 10px; height: auto;}
+.re_carousel .controls{ background-color: transparent;}
+.re_carousel .preview img{height: auto;}
+.re_carousel h3{ font-size: 16px; line-height: 18px; margin-bottom: 12px;}
+.re_carousel h3 span{ font-weight: normal; font-style: italic; color: #666; font-family: Georgia}
+.re_carousel figure{ margin-bottom: 15px}
+.re_carousel figure a{ position: relative; display: block;}
+.re_carousel .post-meta a{ color: #999; font-size: 13px}
+.re_carousel .controls{background-color: rgba(0, 0, 0, 0.5);width: 29px;height: 29px;position: absolute;top: 80px;color: transparent;cursor: pointer;opacity: 0.8; text-align: center;}
+.re_carousel .controls.prev:after, .re_carousel .controls.next:after{position: static;line-height: 29px;font-size: 14px;color: #fff;}
+.re_carousel .controls.next{ top: 80px; right: 0}
+.re_carousel .controls.prev{top: 80px; left: 0}
+
+.video_anons h3{ text-transform: uppercase; font-size: 25px; line-height: 25px; margin: 15px 0}
+.news_block.full_width_video .big_img{ width: 48%}
+.news_block.full_width_video .right{ width: 23.5%; margin-left: 2%;}
+.second_video_row {clear: right;}
+.news_block.full_width_video .right h3{ text-transform: uppercase; font-size: 16px}
+
+
+.radial-progress .circle .mask .fill, .main_slider .flex-control-paging li a.flex-active, .main_slider .flex-control-paging li a:hover, .top_rating_item .score.square_score{ background-color:#f99800 !important }
+.rehub_feat_block .priced_block .btn_offer_block, .offer_grid .priced_block .btn_offer_block, .rehub_feat_block .priced_block .btn_offer_block:hover, .offer_grid .priced_block .btn_offer_block:hover{ background-color: #f99800}
+.top_rating_item .read_full { color: #111 !important}
+.rate_bar_wrap .review-top{ padding: 20px; background-color: #000000;}
+.rate_bar_wrap .review-top .overall-score span.overall-text{ background-color: #141414; color: #FFFFFF;border: 1px solid #6F6F6F; }
+.rate_bar_wrap .review-top .review-text p{ margin: 0 0 10px 0 !important;font-size: 14px;line-height: 20px;}
+.rate_bar_wrap{ padding: 0; box-shadow: none; border: none; background-color: transparent;}
+.rate_bar_wrap .review-top .overall-score span.overall, .review-text, .rate_bar_wrap .review-top .review-text span.review-header{color: #fff}
+.priced_block .btn_offer_block:after{ display: none !important;}
+.top_rating_block.list_style_rating .top_rating_item{ background-color: #fff}
+.sidebar .widget.widget_shopping_cart{ background-color: #fff; padding: 15px}
+
+.rate_bar_wrap .review-top .overall-score {margin: 0 20px 0 0;}
+.main_slider .re_thing_btn a{ background-color: #B07C01 !important; color: #fff !important}
+.widget.tabs > ul{ border: none; margin-bottom: 12px}
+.widget.tabs > ul > li{ font-size: 14px; border: 1px solid transparent; color: #999;background-color: transparent;  }
+
+/*.main-side.full_width.visual_page_builder{ padding: 0}*/
+.main-side.full_width .vcard.author a{color: #ececec !important} 
+.main-side.full_width.single article > p{margin: 0 35px 30px 35px} 
+.main-side.full_width .related_articles .related_title, .main-side.full_width .comment-respond h3{ background-color: #ececec}
+.main-side.full_width .wpsm-divider.dotted_divider {border-top: 3px dotted #DEDEDE;}
+.rate_bar_wrap_two_reviews{ border-top: none; padding: 0 }
+.rate_bar_wrap_two_reviews .l_criteria{ padding-top: 0}
+.rate_bar_wrap{ margin-bottom: 35px}
+.main-side.full_width .wpsm_pros{ padding-left: 35px}
+.main-side.full_width .wpsm_cons{ padding-right: 35px}
+.main-side.full_width .rate_bar_wrap.only_user_reviews {max-width: 1020px;}
+.main-side.full_width .top_rating_block.table_style_rating .top_rating_item{ background-color: #fff}
+.main-side.full_width .top_rating_block.table_style_rating .top_rating_item > div{border-color: #f2f2f2}
+.no_shadow .vc_row.vc_rehub_container > .vc_col-sm-8{background-color: transparent; padding: 0}
+.wpsm-numbox, .wpsm-numhead{ margin: 0 0 30px 0}
+.commentlist .comment-author .fn, .commentlist .comment-author .fn a, #commentform #submit, .sidebar .widget .title{ font-size: 15px !important}
+.small_post h2, .top_rating_item .rank_count{ font-size: 21px}
+.rething_item.small_post h2{ font-size: 24px}
+.related_articles .related_title, .comment-respond h3, .radial-progress .inset .percentage, .re_title_inmodal{ font-size: 20px}
+.top_rating_item .read_full{ font-size: 13px; margin-top: 8px; display: inline-block;}
+.priced_block .btn_offer_block, .entry-summary p{ font-size: 13px}
+.table_view_block a.btn_offer_block{ font-size: 14px !important}
+article h2, .masonry_grid_fullwidth .rething_item.small_post h2, .col_wrap_three .rething_item.small_post h2, .col_wrap_fourth .rething_item.small_post h2, .col_wrap_fifth .rething_item.small_post h2{ font-size: 21px; line-height: 22px;}
+article h5{font-size: 15px; line-height: 15px;}
+article h6, .btn_more{font-size: 13px; line-height: 13px;}
+.single-product article h1{ font-size: 25px; line-height: 25px}
+.small_post .top{line-height: 12px;}
+.with_sidebar_rating.top_rating_block a.btn_offer_block{ font-size: 13px; line-height: 13px}
+.top_table_block{ background-color: #fff}
+.favour_in_single{ margin: 0 auto 25px auto}
+.favour_in_single .simplefavorite-button {font: 18px/18px Arial;padding: 8px 12px;}
+.favour_in_single .simplefavorite-button i {font-size: 18px;line-height: 18px;}
+
+input[type="submit"], .news_out_tabs .tabs-menu li, .lined_r_title, .related_articles ul li > a, .main_slider .slide .flex-overlay h2, .more_post.index_next_pagination a, .re_title_inmodal, .custom_textarea .rehub_feat_block .offer_title, .rh-deal-compact-btn, .top_rating_item .rank_count, .post_slider .caption a, .slider_post .caption a, footer#theme_footer .right a, .wpcf7 .wpcf7-submit,  .sidebar .featured_slider .link, h1, h2, h3, h4, h5, h6, .priced_block .btn_offer_block, .block_with_coupon .offer_title, .cats_def a, .btn_more, .widget.tabs > ul > li, .featured_slider .reviews, .sidebar .featured_slider .link, .widget .title, .footer-bottom .footer_widget .title, .footer-bottom .featured_slider .link, .title h1, .title h5, .small_post .overlay h2, .small_post blockquote p, .post_slider .caption a, .related_articles .related_title, #comments .title_comments, .commentlist .comment-author .fn, .commentlist .comment-author .fn a, #commentform #submit, .media_video > p, .wpsm-button.rehub_main_btn, .title_ecwid, .rate_bar_wrap .review-top .review-text span.review-header, .ap-pro-form-field-wrapper input[type="submit"], .rehub-main-font{ 
+ font-weight: bold;}
+
+.dl-menuwrapper li a, nav.top_menu ul li a{ font-family: Noto Serif, Georgia; font-size: 15px}
+.dash .digit, a.comment, a.comment_two, .featured_slider .score, .featured_slider .score i, .featured_slider .reviews, .top_rating_item .read_full{ font-family: Arial}
+.woocommerce a.add_to_cart_button, .woocommerce-page a.add_to_cart_button, .woocommerce a.single_add_to_cart_button, .woocommerce-page a.single_add_to_cart_button, .woocommerce div.product form.cart .button, .woocommerce-page div.product form.cart .button, .woocommerce #content div.product form.cart .button, .woocommerce-page #content div.product form.cart .button{font-family: Arial !important; font-size: 13px !important}
+
+.re_thing_btn a:hover, .re_thing_btn.continue_thing_btn a:hover{background-color:#CC940F; border: 1px solid #CC940F; color: #fff !important}
+.re_thing_btn .rehub_offer_coupon:hover{border: 1px dashed #CC940F; }
+.re_thing_btn .rehub_offer_coupon:hover i.fa{ color: #CC940F}
+.re_thing_btn .rehub_offer_coupon.not_masked_coupon:hover{color: #CC940F !important}

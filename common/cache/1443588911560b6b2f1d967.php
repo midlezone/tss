@@ -1,0 +1,1 @@
+<?php return array('value'=> '{"username":"thangtv.vnit@gmail.com","password":"40bbdf3ad0f7cc19e17add10ea4e5ef0","rememberMe":1}', 'mode'=>true);

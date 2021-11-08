@@ -1,0 +1,99 @@
+div.flash-error, div.flash-notice, div.flash-success
+{
+    padding:.8em;
+    margin-bottom:1em;
+    border:2px solid #ddd;
+}
+
+div.flash-error
+{
+    background:#FBE3E4;
+    color:#8a1f11;
+    border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+    background:#FFF6BF;
+    color:#514721;
+    border-color:#FFD324;
+}
+
+div.flash-success
+{
+    background:#E6EFC2;
+    color:#264409;
+    border-color:#C6D880;
+}
+
+div.flash-error a
+{
+    color:#8a1f11;
+}
+
+div.flash-notice a
+{
+    color:#514721;
+}
+
+div.flash-success a
+{
+    color:#264409;
+}
+ul.yiiPager
+{
+    font-size:11px;
+    border:0;
+    margin:0;
+    padding:0;
+    line-height:100%;
+    display:inline;
+}
+
+ul.yiiPager li
+{
+    display:inline;
+}
+
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+    border:solid 1px #9aafe5;
+    font-weight:bold;
+    color:#0e509e;
+    padding:1px 6px;
+    text-decoration:none;
+}
+
+ul.yiiPager .page a
+{
+    font-weight:normal;
+}
+
+ul.yiiPager a:hover
+{
+    border:solid 1px #0e509e;
+}
+
+ul.yiiPager .selected a
+{
+    background:#2e6ab1;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+
+ul.yiiPager .hidden a
+{
+    border:solid 1px #DEDEDE;
+    color:#888888;
+}
+
+/**
+ * Hide first and last buttons by default.
+ */
+ul.yiiPager .first,
+ul.yiiPager .last
+{
+    display:none;
+}
+.errorMessage{color: #B94A48;}

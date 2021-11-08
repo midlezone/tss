@@ -1,0 +1,1 @@
+<?php return array('value'=> '{"username":"congtyxaydung.info@gmail.com","password":"2a8336a8662137dcaff066d3368cda5e","rememberMe":1}', 'mode'=>true);

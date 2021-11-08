@@ -1,0 +1,32 @@
+@font-face {
+	font-family: ebrima;
+	src:url(../Font/ebrima.ttf);
+}
+.clear{ clear:both;}
+body{ font-family: ebrima;}
+.container{width:960px;}
+#header{ background:#fff;}
+#contact{ background:#f7f7f7;padding: 20px 0;}
+.title-contact h2{ font-size:18px; text-transform:uppercase; font-weight:600; color:#9fb03e; margin:10px 0;}
+.name, .phone, .mail{ color:#535d22; font-size:14px; text-transform:uppercase; font-weight:bold;}
+.phone, .mail{ float:left; margin-right:30px;}
+.user{ float:none; margin-bottom:40px;}
+.user:last-child{ margin:0;}
+.logodt{ position:relative; height:160px;}
+.logodt img{ position: absolute; top:0; left:0; right:0; bottom:0; margin:auto;}
+#nav{ background:#535d22; margin-bottom:20px;}
+p img{ margin:0 20px 10px 0; float:left;}
+#footer{background:#535d22; height:40px;}
+.coppyright{ text-align:center; line-height:40px; color:#fff; text-transform:uppercase; font-weight:600;}
+.hide-text{display: none;}
+.layout-2  #contentCol{margin-left: 0;}
+@media(max-width:959px){
+		.container{width:100%;}
+		#header, #contact, #nav, #footer, #main{ padding:0 10px;}
+		.logodt{ margin:0 10px;}
+	}
+@media(max-width:480px){
+	#footer{ height:auto}
+	.coppyright{ line-height:20px;}
+	}
+
